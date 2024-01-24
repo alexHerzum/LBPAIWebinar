@@ -1,0 +1,113 @@
+body {
+  font-family: 'Montserrat', sans-serif; 
+}
+
+form {
+  margin-bottom: 0;
+}
+
+
+.table-sm td {
+  vertical-align: middle;
+}
+
+.semibold {
+  font-weight:500;
+} 
+
+.font-sm {
+  font-size: 90%;
+}
+
+.jumbotron {
+  margin: 20px auto;
+}
+
+#main-container{
+  margin-top: 20px; 
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: rgb(46, 63, 70);
+  text-align: center;
+}
+
+.load-screen {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 2;
+  background-color:rgba(75, 75, 75, 0.756);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Quotes and Invoices */
+.button-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Quote Detail */
+.word-table{
+  max-width: 32rem;
+  margin-top: 2rem;
+}
+
+.word-table p, .word-table td{
+  margin-bottom: 0;
+  font-size: 14px;
+  font-family: "Calibri", sans-serif
+}
+.word-table th{
+  font-size: 12px;
+  min-width: 5rem;
+  font-family: "Calibri", sans-serif
+}
+
+.word-table, .word-table th, .word-table td {
+  border: 1px solid;
+}
+
+.word-table {
+  border-collapse: collapse;
+}
+
+/* navbar */
+.btn-dark.btn-nav{
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: #e5e7f2 ;
+  --bs-btn-bg: #9dafca;
+  --bs-btn-border-color: #9dafca;
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #9dafca;
+  --bs-btn-hover-border-color: #9dafca;
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: #9dafca;
+  --bs-btn-active-border-color: #9dafca;
+  }
+
+/* Revenue */
+.revenue-logs{
+  margin-bottom: 3.5rem;
+}
+
+.revenue-logs p{
+  margin-bottom: 0;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.revenue-logs h2{
+  margin-top: 1rem;
+}
